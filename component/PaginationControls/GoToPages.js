@@ -1,6 +1,6 @@
 import PaginationControl from './PaginationControl.js';
 import GoToPage from './GoToPage.js';
-import bound from '../../utils/bound.js';
+import { bound } from '../../utils/number.js';
 
 const renderButtons = Symbol();
 export default class GoToPages extends PaginationControl {

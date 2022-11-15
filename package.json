@@ -1,0 +1,26 @@
+{
+  "name": "essential",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "node ./test/index.jx"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinpoissant/Essential.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinpoissant/Essential/issues"
+  },
+  "homepage": "https://github.com/dustinpoissant/Essential#readme",
+  "description": "",
+  "devDependencies": {
+    "puppeteer": "^19.2.2"
+  }
+}

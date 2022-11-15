@@ -22,7 +22,7 @@ const readFullDir = path => new Promise( async (resolve) => {
 });
 
 const files = await readFullDir('./test');
-const allTests = files.filter(f=>f.endsWith('.test.js')).map(f=>`./${f.split('./test/')[1]}`);
+const allTests = files.filter(f=>f.endsWith('.node_test.js')).map(f=>`./${f.split('./test/')[1]}`);
 const tests =
 	(suites.length == 0)?
 		allTests :

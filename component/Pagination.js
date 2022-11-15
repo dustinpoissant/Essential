@@ -1,5 +1,5 @@
 import Core from './Core.js';
-import bound from '../utils/bound.js';
+import { bound } from '../utils/number.js';
 import PaginationControl from './PaginationControls/PaginationControl.js';
 
 const items = Symbol(),
